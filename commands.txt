@@ -18,3 +18,7 @@ git reset --hard HEAD^  // directly delete the last commit
 //  when you deleted some commit (which are pulled from github repo) then you won't able to push that at origin directly because you have make changes that are from origin branch in this case -->
 git pull origin YOUR_BRANCH_NAME
 // Grabs online updates and merges them with your local work
+
+
+// If you want specific branch from github when you have multiple branch in one repo like signin branch, singnup branch and all
+git pull origin feature/signup
