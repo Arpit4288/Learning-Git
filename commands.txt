@@ -14,3 +14,4 @@ git branch // show the branch
 git reset --hard  // only last commit will deleted
 git reset --hard  15479ead9c6c21d9ea6cdffdd787fde579268d88 //This commit id will get deleted, and moves to that commit
 
+// for see
