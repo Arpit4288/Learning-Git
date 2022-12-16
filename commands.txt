@@ -14,3 +14,7 @@ git branch // show the branch
 git reset --hard  // only last commit will deleted
 git reset --hard  15479ead9c6c21d9ea6cdffdd787fde579268d88 //This commit id will get deleted, and moves to that commit
 git reset --hard HEAD^  // directly delete the last commit
+
+//  when you deleted some commit (which are pulled from github repo) then you won't able to push that at origin directly because you have make changes that are from origin branch in this case -->
+git pull origin YOUR_BRANCH_NAME
+// Grabs online updates and merges them with your local work
