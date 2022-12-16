@@ -1,0 +1,6 @@
+Git init
+git 
+git add .
+git commit -m "----"
+git clone URL
+git push origin main   // by default github gives you the main named branch
