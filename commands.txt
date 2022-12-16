@@ -1,6 +1,12 @@
-Git init
-git 
-git add .
+Git init  // or git clone directly the existing code from github
+git git add .
 git commit -m "----"
+git config --local user.name 
+git config --local user.email
 git clone URL
 git push origin main   // by default github gives you the main named branch
+
+git log // commit history
+git status  // status of local git repo
+git branch // show the branch
+
