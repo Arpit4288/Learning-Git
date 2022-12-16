@@ -10,3 +10,7 @@ git log // commit history
 git status  // status of local git repo
 git branch // show the branch
 
+// in your commit copy the any commit id
+git reset --hard  // only last commit will deleted
+git reset --hard  15479ead9c6c21d9ea6cdffdd787fde579268d88 //This commit id will get deleted, and moves to that commit
+
