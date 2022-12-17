@@ -21,5 +21,6 @@ git pull origin YOUR_BRANCH_NAME
 
 
 // If you want specific branch from github when you have multiple branch in one repo like signin branch, singnup branch and all
-git pull origin feature/signup  // for pull request for other developers
-
+git push origin feature/signup  // for pull request for other developers
+git push -u origin signup  // for adding signup branch to the github on top of main not inside main
+// there are 4 type of branch   feature/, bug/, hotfix/, 
